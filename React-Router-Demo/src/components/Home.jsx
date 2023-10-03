@@ -6,9 +6,9 @@ export const Home = () => {
     <>
       <div>Home Page</div>
       <button onClick={() => navigate("order-summary")}>Place Order</button>
-      <button onClick={() => navigate("order-summary", { replace: true })}>
+      {/* <button onClick={() => navigate("order-summary", { replace: true })}>
         Place Order
-      </button>
+      </button> */}
       {/* replace the current page in the history stack */}
     </>
   );

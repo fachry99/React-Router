@@ -10,13 +10,16 @@ export const Navbar = () => {
     };
   };
   return (
-    <div>
+    <nav className="primary-nav">
       <NavLink style={navLinkStyle} to="/">
         Home
       </NavLink>
       <NavLink style={navLinkStyle} to="/about">
         About
       </NavLink>
-    </div>
+      <NavLink style={navLinkStyle} to="/products">
+        Products
+      </NavLink>
+    </nav>
   );
 };
