@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home.jsx";
 import { About } from "./components/About.jsx";
+import { OrderSummary } from "./components/OrderSummary.jsx";
 import { Navbar } from "./components/Navbar";
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/order-summary" element={<OrderSummary />} />
+        <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </div>
   );
