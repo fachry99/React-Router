@@ -7,6 +7,7 @@ export const Products = () => {
       </div>
       <nav>
         <Link to="featured">Featured</Link>
+        <br />
         <Link to="new">New</Link>
       </nav>
       <Outlet />
